@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Information</title>
+<meta charset="UTF-8">
+<title>Information</title>
 </head>
 <header>
-    <p>This is for us</p>
+    <p>Please compled all line.</p>
 </header>
 <body>
     <form method="POST" action="https://formspree.io/fokshei.d@gmail.com">
@@ -21,16 +21,39 @@
         <label for="user-age">Your age:</label><!--age-->
         <input type="number" name="user-age" id="user-age" placeholder="Your age" required>
         <br>
-        <input type="radio" name="sex" value="Male">M
-        <input type="radio" name="sex" value="Female">F
+        <input type="radio" name="sex" value="Male">Male
+        <input type="radio" name="sex" value="Female">Female
+  		<br>
+        Native language
+        <select name="language">
+            <option value="ukraine">Ukrainian</option>
+            <option value="english-gb">G.B.-English</option>
+            <option value="english-usa">American-English</option>
+            <option value="rusian">Rusian</option>
+        </select>
+		<br>
+        Passport number:
+        <input type="text" name="car" id="car" pattern="[A-Z]{2}[0-9]{6}" title="AA9999AA" placeholder="AA000000"  required>
+        <br>
+        Do You speak urainian
+        <input type="radio" name="ukr" value="yes">Yes
+        <input type="radio" name="ukr" value="no">No
+        <br>
+        <label for="aspera">Please complet this sentansis:<br>Per aspera ad</label> <!--surname-->
+        <input type="text" name="aspera" id="aspera" placeholder="type hear" value="" required>
+        <br>
+        
         <br>
         <label for="comment">Help us to make our anket better:</label><!--від коментарів-->
         <br>
         <textarea name="comment" id="comment"></textarea>
         <br>
-        <input type="text" name="car" id="car" pattern="[A-Z]{2}[0-9]{4}[A-Z]{2}" title="AA9999AA" placeholder="AA00000AA"  required >
+        
         <br>
         <input type="submit" name="submit" value="Send"><!--кнопка-->
     </form>
+<footer>
+<p>Thak`s for Yor time<p>
+</footer>
 </body>
 </html>
