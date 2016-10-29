@@ -1,92 +1,108 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Information</title>
-</head>
-<body>
-<header>
-    <p>Please compiled all line.</p>
-</header>
-<section>
-    <form method="POST" action="https://formspree.io/fokshei.d@gmail.com">
-        <fieldset>
-            <legend>Personal information</legend>
-            <label for="name">Name:</label> <!--name-->
-            <input type="text" name="name" id="name" placeholder="Your name" value="" required>
-            <br>
-            <label for="surname">Surname:</label> <!--surname-->
-            <input type="text" name="surname" id="surname" placeholder="Your surname" value="" required>
-            <br>
-            <label for="user-age">Your age:</label><!--age-->
-            <input type="number" name="user-age" id="user-age" placeholder="Your age" required>
-            <br>
-            <label for="date">When you born?:</label><!--age-->
-            <input type="date" name="date" id="date" required>
-            <br>
-            <label for="sex">Your sex:</label><!--age-->
-            <input type="radio" name="sex" class="sex" value="Male">Male
-            <input type="radio" name="sex" class="sex" value="Female">Female
-            <br>
-            <label for="language">Native language</label><!--age-->
-            <select name="language" id="language">
-            	<option value="ukraine">Ukrainian</option>
-                <option value="english-gb">British english</option>
-                <option value="english-usa">American english</option>
-                <option value="rusian">Russian </option>
-            </select>
-            <br>
-            <label for="pass">Passport number:</label><!--age-->
-            <input type="text" name="pass" id="pass" pattern="[A-Z]{2}[0-9]{6}" title="AA9999AA" placeholder="AA000000"  required>
-            <br>
-            <label for="email">Email:</label> <!--email-->
-            <input type="email" name="email" id="email" placeholder="simple@example.com" required>
-            <br>
-            <label for="tel">Telephone number:</label> <!--email-->
-            <input type="tel" name="tel" id="tel" placeholder="+38 000 000 00 00" required>
-        </fieldset>
-        <br>
-        <fieldset>
-        	<legend>Nikname and password for site</legend>
-            <label for="nickname">Nickname:</label> <!--nikname-->
-            <input type="text" name="nickname" id="nickname" placeholder="Your nickname" value="" required>
-            <br>
-            <label for="password">Password:</label> <!--name-->
-            <input type="password" name="password" id="password" placeholder="Your password" value="" required>	
-            <br>
-            <label for="one-more-password">Again:</label> <!--name-->
-            <input type="password" name="one-more-password" id="one-more-password" placeholder="Again your password" value="" required>	
-        </fieldset>
-        <br>
-        <label for="ukr">Do You speak urainian?</label> 
-        <br>
-        <input type="radio" name="ukr" class="ukr" value="yes">Yes
-        <input type="radio" name="ukr" class="ukr" value="no">No
-        <br>
-        <br>
-        <label for="aspera">Please complete this sentences:<br>Per aspera ad</label> <!--surname-->
-        <input type="text" name="aspera" id="aspera" placeholder="type hear" value="" required>
-        <br>
-
-        <p></p>
-        <label for="it">What programing language do you know?:</label> 
-        <br>
-        <input type="checkbox" name="language" class="it" value="c++">C++<br>
-        <input type="checkbox" name="language" class="it" value="c#">C#<br>
-        <input type="checkbox" name="language" class="it" value="phyton">Phyton<br>
-        <input type="checkbox" name="language" class="it" value="ruby">Ruby<br>
-        <br>
-        <label for="comment">Help us to make our question better:</label><!--від коментарів-->
-        <br>
-        <textarea name="comment" id="comment"></textarea>
-        <br>
-        <br>
-        <input type="reset" name="reset" value="Reset">
-        <input type="submit" name="submit" value="Send">
-    </form>
-</section>
-<footer>
-<p>Thank You for your time<p>
-</footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Information</title>
+    </head>
+    <body>
+        <header>
+            <p>Please compiled all line.</p>
+        </header>
+        <section>
+            <form method="POST" action="https://formspree.io/fokshei.d@gmail.com">
+                <fieldset>
+                    <legend>Personal information</legend>
+                    <label for="name">Name:</label>
+                    <!--name-->
+                    <input type="text" name="name" id="name" placeholder="Your name" value="" required>
+                    <br>
+                    <label for="surname">Surname:</label>
+                    <!--surname-->
+                    <input type="text" name="surname" id="surname" placeholder="Your surname" value="" required>
+                    <br>
+                    <label for="user-age">Your age:</label>
+                    <!--age-->
+                    <input type="number" name="user-age" id="user-age" placeholder="Your age" required>
+                    <br>
+                    <label for="date">When you born?:</label>
+                    <!--age-->
+                    <input type="date" name="date" id="date" required>
+                    <br>
+                    <label for="sex">Your sex:</label>
+                    <!--age-->
+                    <input type="radio" name="sex" class="sex" value="Male">Male
+                    <input type="radio" name="sex" class="sex" value="Female">Female
+                    <br>
+                    <label for="language">Native language</label>
+                    <!--age-->
+                    <select name="language" id="language">
+                        <option value="ukraine">Ukrainian</option>
+                        <option value="english-gb">British english</option>
+                        <option value="english-usa">American english</option>
+                        <option value="rusian">Russian </option>
+                    </select>
+                    <br>
+                    <label for="pass">Passport number:</label>
+                    <!--age-->
+                    <input type="text" name="pass" id="pass" pattern="[A-Z]{2}[0-9]{6}" title="AA9999AA" placeholder="AA000000" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <!--email-->
+                    <input type="email" name="email" id="email" placeholder="simple@example.com" required>
+                    <br>
+                    <label for="tel">Telephone number:</label>
+                    <!--email-->
+                    <input type="tel" name="tel" id="tel" placeholder="+38 000 000 00 00" required>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Nikname and password for site</legend>
+                    <label for="nickname">Nickname:</label>
+                    <!--nikname-->
+                    <input type="text" name="nickname" id="nickname" placeholder="Your nickname" value="" required>
+                    <br>
+                    <label for="password">Password:</label>
+                    <!--name-->
+                    <input type="password" name="password" id="password" placeholder="Your password" value="" required>
+                    <br>
+                    <label for="one-more-password">Again:</label>
+                    <!--name-->
+                    <input type="password" name="one-more-password" id="one-more-password" placeholder="Again your password" value="" required>
+                </fieldset>
+                <br>
+                <label for="ukr">Do You speak urainian?</label>
+                <br>
+                <input type="radio" name="ukr" class="ukr" value="yes">Yes
+                <input type="radio" name="ukr" class="ukr" value="no">No
+                <br>
+                <br>
+                <label for="aspera">
+                    Please complete this sentences:<br>Per aspera ad
+                </label>
+                <!--surname-->
+                <input type="text" name="aspera" id="aspera" placeholder="type hear" value="" required>
+                <br>
+                <p></p>
+                <label for="it">What programing language do you know?:</label>
+                <br>
+                <input type="checkbox" name="language" class="it" value="c++">C++<br>
+                <input type="checkbox" name="language" class="it" value="c#">C#<br>
+                <input type="checkbox" name="language" class="it" value="phyton">Phyton<br>
+                <input type="checkbox" name="language" class="it" value="ruby">Ruby<br>
+                <br>
+                <label for="comment">Help us to make our question better:</label>
+                <!--від коментарів-->
+                <br>
+                <textarea name="comment" id="comment"></textarea>
+                <br>
+                <br>
+                <input type="reset" name="reset" value="Reset">
+                <input type="submit" name="submit" value="Send">
+            </form>
+        </section>
+        <footer>
+            <p>Thank You for your time
+            <p>
+        </footer>
+    </body>
 </html>
