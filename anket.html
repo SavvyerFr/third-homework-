@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Information</title>
+</head>
+<header>
+    <p>This is for us</p>
+</header>
+<body>
+    <form method="POST" action="https://formspree.io/fokshei.d@gmail.com">
+        <label for="name">Name:</label> <!--name-->
+        <input type="text" name="name" id="name" placeholder="Your name" value="" required>
+        <br>
+        <label for="surname">Surname:</label> <!--surname-->
+        <input type="text" name="surname" id="surname" placeholder="Your surname" value="" required>
+        <br>
+        <label for="email">Email:</label> <!--email-->
+        <input type="email" name="email" id="email" placeholder="simple@example.com" required>
+        <br>
+        <label for="comment">Help us to make our anket better:</label><!--від коментарів-->
+        <br>
+        <textarea name="comment" id="comment"></textarea>
+        <br>
+        <input type="text" name="car" id="car" pattern="[A-Z]{2}[0-9]{4}[A-Z]{2}" title="AA9999AA" placeholder="AA00000AA"  required >
+        <br>
+        <input type="submit" name="submit" value="Send"><!--кнопка-->
+    </form>
+</body>
+</html>
